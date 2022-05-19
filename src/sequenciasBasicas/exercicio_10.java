@@ -24,7 +24,6 @@ public class exercicio_10 {
 		quantidadeTintas = area / 2;
 		
 		System.out.println("Você irá precisar de " + quantidadeTintas + "L de tinta.");
-
 		
 	}
 }
