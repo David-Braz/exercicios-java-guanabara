@@ -45,7 +45,7 @@ public class exercicio_35 {
 		switch(op) {
 		
 		case 1:
-			System.out.println("=== Carro Popular ===");
+			System.out.println("\n=== Carro Popular ===");
 			if(kmPercorrido <= 100.0) {
 				dividaKm = kmPercorrido * 0.20;
 				dividaAluguel = diasAlugado * 90.0;
@@ -62,7 +62,7 @@ public class exercicio_35 {
 			if(kmPercorrido <= 200.0) {
 				dividaKm = kmPercorrido * 0.30;
 				dividaAluguel = diasAlugado * 150.0;
-				System.out.println("Valor total a pagar: " + (dividaKm + dividaAluguel));
+				System.out.println("Valor total a pagar: R$" + (dividaKm + dividaAluguel));
 			}
 			else if(kmPercorrido > 200.0) {
 				dividaKm = kmPercorrido * 0.25;
