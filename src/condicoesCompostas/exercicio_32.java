@@ -22,16 +22,23 @@ public class exercicio_32 {
 		System.out.println("\nNeste jogo você terá que adivinhar o número que iremos sortear! \n");
 		System.out.println("Acabamos de sortear o número.\nAgora é com você!\n");
 		System.out.print("Digite aqui o seu número de 1 a 5: ");
+		
 		numJogador = scan.nextInt();
 		numSorteado = random.nextInt(4)+1;
+		
 		System.out.println("\nNosso número sorteado foi: " + numSorteado);
 		System.out.println("Você escolheu o número: " + numJogador);
 		
 		if(numJogador == numSorteado) {
-		System.out.println("\nQue legal! Você acertou!");
+		
+			System.out.println("\nQue legal! Você acertou!");
+			
 		}
+		
 		else {
+			
 			System.out.println("\nInfelizmente você errou. Tente novamente!");
+			
 		}
 		
 	}
