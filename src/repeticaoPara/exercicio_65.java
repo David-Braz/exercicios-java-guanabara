@@ -9,7 +9,16 @@ public class exercicio_65 {
 		 * 
 		 * 100 90 80 70 60 50 40 30 20 10 0 Acabou!
 		 */
-
+		
+		int x;
+		
+		for(x = 100; x >= 0; x -= 10) {
+			
+			System.out.print(x + " ");
+			
+		}
+		
+		System.out.print("Acabou!");
 	}
 
 }
