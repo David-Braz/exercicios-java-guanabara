@@ -1,5 +1,7 @@
 package vetores;
 
+import java.util.Random;
+
 public class exercicio_80 {
 
 	public static void main(String[] args) {
@@ -10,7 +12,21 @@ public class exercicio_80 {
 		 * e seu programa deve mostrar em que posições essa chave foi encontrada.
 		 * Mostre também quantas vezes a chave foi sorteada.
 		 */
-
+		
+		int[] vetor = new int[30];
+		int x, chave;
+		
+		Random rand = new Random();
+		
+		for(x = 0; x <= 29; x++) {
+			
+			vetor[x] = rand.nextInt(15) + 1;
+			
+		}
+		
+		
+		
+		
 	}
 
 }
