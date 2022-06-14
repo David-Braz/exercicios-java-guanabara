@@ -13,13 +13,6 @@ public class exercicio_86 {
 		 * +-------=======------+
 		 */
 		
-		String frase;
-		
-		String Gerador(frase) {
-			
-			return System.out.println("+-------=======------+ \n Olá, Mundo!\n +-------=======------+ ");
-			
-		}
 		
 	}
 
