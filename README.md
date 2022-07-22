@@ -346,7 +346,7 @@ Obs: O programa será interrompido quando o número 1111 for digitado
 
 ## PASSO 09 – PROCEDIMENTOS
 
-6) Crie um programa que tenha um procedimento Gerador() que, quando chamado, mostre a mensagem "Olá, Mundo!" com algum componente visual (linhas)
+86) Crie um programa que tenha um procedimento Gerador() que, quando chamado, mostre a mensagem "Olá, Mundo!" com algum componente visual (linhas)
 Ex: Ao chamar Gerador() aparece:
 +-------=======------+
 Olá, Mundo!
@@ -369,10 +369,10 @@ Aprendendo Portugol
 +-------=======------+
 
 89) Crie um programa que melhore o procedimento Gerador() da questão anterior para que o programador possa escolher uma entre três bordas:
-
 +-------=======------+ Borda 1
 ~~~~~~~~:::::::~~~~~~~ Borda 2
-<<<<<<<<------->>>>>>> Borda 3Ex: Uma chamada válida seria Gerador("Portugol Studio", 3, 2)
+<<<<<<<<------->>>>>>> Borda 3
+Ex: Uma chamada válida seria Gerador("Portugol Studio", 3, 2)
 ~~~~~~~~:::::::~~~~~~~
 Portugol Studio
 Portugol Studio
