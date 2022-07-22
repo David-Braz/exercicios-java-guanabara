@@ -348,27 +348,34 @@ Obs: O programa será interrompido quando o número 1111 for digitado
 
 86) Crie um programa que tenha um procedimento Gerador() que, quando chamado, mostre a mensagem "Olá, Mundo!" com algum componente visual (linhas)
 Ex: Ao chamar Gerador() aparece:
+```
 +-------=======------+
 Olá, Mundo!
 +-------=======------+
+```
 
 87) Crie um programa que melhore o procedimento Gerador() da questão anterior para que mostre uma mensagem personalizada, passada como parâmetro.
 Ex: Ao chamar Gerador("Aprendendo Portugol") aparece:
+```
 +-------=======------+
 Aprendendo Portugol
 +-------=======------+
+```
 
 88) Crie um programa que melhore o procedimento Gerador() da questão anterior para que mostre uma mensagem vário
 Ex: Ao chamar Gerador("Aprendendo Portugol",
 4) aparece:
+```
 +-------=======------+
 Aprendendo Portugol
 Aprendendo Portugol
 Aprendendo Portugol
 Aprendendo Portugol
 +-------=======------+
+```
 
 89) Crie um programa que melhore o procedimento Gerador() da questão anterior para que o programador possa escolher uma entre três bordas:
+```
 +-------=======------+ Borda 1
 ~~~~~~~~:::::::~~~~~~~ Borda 2
 <<<<<<<<------->>>>>>> Borda 3
@@ -378,7 +385,7 @@ Portugol Studio
 Portugol Studio
 Portugol Studio
 ~~~~~~~~:::::::~~~~~~~
-
+```
 90) Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses valores para um procedimento Somador() que vai calcular e mostrar a soma entre eles.
 
 91) Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses valores para um procedimento Maior() que vai verificar qual deles é o maior e mostrá-lo na tela. Caso os dois valores sejam iguais, mostrar uma mensagem informando essa característica.
