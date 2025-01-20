@@ -12,6 +12,7 @@ public class Passo5 {
         double nt2 = sc.nextDouble();
         double Soma = nt1 + nt2;
         double media = Soma / 2;
+
         System.out.print("Sua média é: " + media);
     }
 }
